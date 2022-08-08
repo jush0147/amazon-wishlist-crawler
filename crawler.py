@@ -2,7 +2,7 @@ import urllib.request as req
 import bs4
 import re
 
-url = "https://www.amazon.co.jp/hz/wishlist/ls/1RIS8BD1SC94Y?ref_=wl_share=hinas3"
+url = "your wishlist url"
 
 request = req.Request(url, headers={
     "User=Agnet": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77"
